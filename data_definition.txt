@@ -1,0 +1,29 @@
+Year: Years from 2011 to 2015 - when it happened?
+LocationAbbr: Abbreviation of the State
+LocationDesc: Name of the State
+Datasource: Just BRFSS - can drop this since all the same
+PriorityArea1: Contains 'None' and 'Million Hearts'
+PriorityArea2: Contains 'None' and 'ABCS'
+PriorityArea3: Contains 'None' and 'Healthy People 2020'
+PriorityArea4: Contains only 'None'
+Category: Contains 'Cardiovascular Diseases' and 'Risk Factors'
+Topic: Topics of diagnosis of the person?
+Indicator: 'Prevalence of' blah blah blah with similar to topics? - have to check
+Data_Value_Type: Contains 'Age-Standardized' and 'Crude'
+Data_Value_Unit: Contains only 'Percent (%)' - drop
+Data_Value: Numeric value (not sure what it stands for)
+Data_Value_Alt: Slight different to 'Data_Value', negative values here but 'nan' for 'Data_Value'
+Data_Value_Footnote_Symbol: Contains 'nan', '~', and '-'
+Data_Value_Footnote: Contains 'nan', 'Statistically unstable...', and 'Data not available'
+Confidence_Limit_Low: Numeric, similar to 'Data_Value'
+Confidence_Limit_High: Numeric
+Break_Out_Category: Contains 'Overall', 'Gender', 'Age', and 'Race'
+Break_out: Contains 'Overall', 'Male', 'Female', '18-24', '25-44', '45-64', '65+', '35+', '75+', 'Non-Hispanic White', 'Non-Hispanic Black', 'Non-Hispanic Asian', 'Hispanic', 'Other', and '20-24'
+CategoryID: Contains 'C1' and 'C2', not sure what it means
+TopicID: Contains T values, not sure what it means
+IndicatorID: Contains BR numbers, not sure what it means
+Data_Value_TypeID: Contains 'AgeStdz' and 'Crude' - same as 'Data_Value_Type' - drop
+BreakoutCategoryID: Contains BOC values, not sure what it means
+BreakOutID: Abbreviation of Breakout
+LocationID: Corresponds to location
+Geolocation: Coordinates
